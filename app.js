@@ -1,8 +1,8 @@
 const todos = [];
 
-const pendingClasses = "bg-white w-full text-center text-green-500 rounded py-4 border-2 border-green-500 transition transform ease-in-out duration-300 hover:bg-green-500 hover:text-white hover:scale-110 hover:rotate-1 cursor pointer";
+const pendingClasses = "bg-white w-full text-center text-red-500 rounded py-4 border-2 border-red-500 transition transform ease-in-out duration-300 hover:bg-green-500 hover:text-white hover:scale-110 hover:rotate-1 cursor pointer";
 
-const completedClasses = "bg-white w-full text-center text-red-500 rounded py-4 border-2 border-red-500 transition transform ease-in-out duration-300 hover:bg-green-500 hover:text-white hover:scale-110 hover:-rotate-1 cursor pointer";
+const completedClasses = "bg-white w-full text-center text-green-500 rounded py-4 border-2 border-green-500 transition transform ease-in-out duration-300 hover:bg-green-500 hover:text-white hover:scale-110 hover:-rotate-1 cursor pointer";
 
 const showTodos = () => {
     const pendingList = document.getElementById("pendingList");
